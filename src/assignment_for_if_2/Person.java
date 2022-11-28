@@ -1,4 +1,4 @@
-package assignment_fot_if_2;
+package assignment_for_if_2;
 
 public class Person {
     String name;
