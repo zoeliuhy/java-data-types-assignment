@@ -1,4 +1,4 @@
-package assignment_for_it_1;
+package assignment_for_if_1;
 
 public class Main {
 
