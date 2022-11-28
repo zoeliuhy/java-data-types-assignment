@@ -1,4 +1,4 @@
-package assignment_7;
+package assignment_for_it_1;
 
 public class Door {
     double width;
@@ -15,6 +15,8 @@ public class Door {
         if (!open) {
             open = true;
             System.out.println("Opening door");
+        } else {
+            System.out.println("The door is already opened.");
         }
     }
 
@@ -22,11 +24,17 @@ public class Door {
         if (open) {
             open = false;
             System.out.println("Closing door");
+        } else {
+            System.out.println("The door is already closed.");
         }
     }
 
     public void printOpen() {
-        System.out.println("The door is open: " + open);
+        if (open) {
+            System.out.println("The door is open.");
+        } else {
+            System.out.println("The door is closed.");
+        }
     }
 
     public double calculateSurface() {
